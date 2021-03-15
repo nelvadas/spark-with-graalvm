@@ -308,7 +308,7 @@ In the same way, we can collect some metrics while running with both Runtimes
 | jdk-11 | 73,34|	68,69|	63,60|	67,29|	61,36|	67,70|	70,60|	70,54|	62,47|	61,83 |
 
 
-In average, for this use case the performance was improved by 	`22,13%` with Scala.
+In average, for this Scala  use case the performance was improved by 	<b>22,13%</b> by GraalVM :rocket:
 
 
 
