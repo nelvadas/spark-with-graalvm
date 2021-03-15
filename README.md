@@ -256,7 +256,7 @@ Numbers represents execution time with the selected java runtime  expressed in S
 | jdk-11 | 72,94 | 63,80 | 63,74 | 67,84 | 72,34 | 66,93 | 64,14 | 65,34 | 65,69 | 65,30 |
 
 
-In average, for this use case the performance was improved by 	<b>18,07%<b> by GraalVM :rocket:
+In average, for this use case the performance was improved by 	<b>18,07%</b> by GraalVM :rocket:
 
 In the Spark web console you can see the executed job
 
