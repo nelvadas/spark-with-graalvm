@@ -281,7 +281,7 @@ $ $ time ./spark-submit --master local[*]  --executor-cores 1 --total-executor-c
 ```
 
 
-
+```
 Running with Java:/Library/Java/JavaVirtualMachines/jdk-11.0.9.jdk/Contents/Home
 (20340000,sit)
 (20160000,sed)
@@ -298,6 +298,7 @@ Running with Java:/Library/Java/JavaVirtualMachines/jdk-11.0.9.jdk/Contents/Home
 real	1m13.340s
 user	10m24.013s
 sys	0m11.013s
+```
 
 In the same way, we can collect some metrics while running with both Runtimes
 
