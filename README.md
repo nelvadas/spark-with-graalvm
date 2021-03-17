@@ -5,7 +5,8 @@ In this tutorial, we will be using GraalVM EE to accelerate Big data processing.
 The following sofware  are being used.
 1. [Apache Hadoop 3.2.2 ( HDFS )](https://hadoop.apache.org/releases.html)
 2. [Apache Spark 3.0.2 binairies for hadoop3.2](https://spark.apache.org/downloads.html)
-3. [GraalVM EE 21.0](https://www.oracle.com/java/graalvm/)
+3. [GraalVM EE 21.0 for Java11](https://www.oracle.com/java/graalvm/)
+4. [Oracle JDK 11.0.9+7-LTS] (https://openjdk.java.net/)
 
 ## Installations 
 
@@ -44,11 +45,14 @@ you can use Any S3 compliant object storage and adjust the file uri if you want.
 
 
 ### Dataset 
-This tutorial shows a Spark job that handle that compute and retreive the Top Ten Words in a large File
-For testing puprose we are creating a 10G file using the utility script 
+This tutorial shows a Spark job for computing and retreiving the Top Ten Words in a large distribuate Text File stored in Hadoop HDFS.
+For testing puprose we are creating a 10G file using the utility Makefile script 
 ```
 $ make large.txt
-$drwxr-xr-x  8 nono  staff   256B 10 mar 05:21 wordcount-spark-scala
+
+$ ls -rtlh
+
+drwxr-xr-x  8 nono  staff   256B 10 mar 05:21 wordcount-spark-scala
 -rw-r--r--  1 nono  staff   5,0K 10 mar 05:25 README.md
 drwxr-xr-x  9 nono  staff   288B 10 mar 06:38 wordcount-spark-java
 -rw-r--r--  1 nono  staff    59K 11 mar 12:55 lorem.txt
