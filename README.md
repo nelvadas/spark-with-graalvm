@@ -6,7 +6,7 @@ The following sofware  are being used.
 1. [Apache Hadoop 3.2.2 ( HDFS )](https://hadoop.apache.org/releases.html)
 2. [Apache Spark 3.0.2 binairies for hadoop3.2](https://spark.apache.org/downloads.html)
 3. [GraalVM EE 21.0 for Java11](https://www.oracle.com/java/graalvm/)
-4. [Oracle JDK 11.0.9+7-LTS] (https://openjdk.java.net/)
+4. [Oracle JDK 11.0.9+7-LTS](https://openjdk.java.net/)
 
 ## Installations 
 
