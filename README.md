@@ -24,6 +24,7 @@ Follow the following videos from Joshua Hruzik to set up your Hadoop Cluster.
 !
 
 This tutorial should be straight forward.
+for my installation `HADOOP_HOME` is pointing on `/usr/local/Cellar/hadoop/3.2.0/libexec/`
 For OSX users, you may encounter a *Warning* with Hadoop versions 3.0+
 after starting ``dfs`` 
 
@@ -73,8 +74,10 @@ $ make clean
 In this section, we load the files we want to use for our benchmarks in HDFS.
 First start your Hadoop Cluster
 
+
+
 ```
-$HADOOP_HOME/sbin/start-all.sh
+$HADOOP_HOME/sbin/./start-all.sh
 ```
 You have at least the hadoop Java processes
 ```
