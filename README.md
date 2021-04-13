@@ -46,7 +46,7 @@ you can use Any S3 compliant object storage and adjust the file uri if you want.
 
 
 ### Dataset 
-This tutorial shows a Spark job for computing and retreiving the Top Ten Words in a large distribuate Text File stored in Hadoop HDFS.
+This tutorial shows a Spark job for computing and retreiving the Top Ten Words in a large distributed Text File stored in Hadoop HDFS.
 For testing puprose we are creating a 10G file using the utility Makefile script 
 ```
 $ make large.txt
